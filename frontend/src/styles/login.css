@@ -1,0 +1,83 @@
+/* Login Form Styles */
+.login-form {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.login-form h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.error-message {
+  background-color: #fee;
+  color: #c53030;
+  padding: 0.75rem;
+  border-radius: 4px;
+  border: 1px solid #fed7d7;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.form-input {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 2px solid #e2e8f0;
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: border-color 0.2s ease;
+  box-sizing: border-box;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #4299e1;
+  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.1);
+}
+
+.form-input::placeholder {
+  color: #a0aec0;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #4299e1;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  margin-bottom: 1rem;
+}
+
+.submit-button:hover {
+  background-color: #3182ce;
+}
+
+.submit-button:active {
+  background-color: #2b77cb;
+}
+
+/* Responsive design */
+@media (max-width: 480px) {
+  .login-form {
+    margin: 1rem;
+    padding: 1.5rem;
+  }
+  
+  .login-form h2 {
+    font-size: 1.5rem;
+  }
+}
